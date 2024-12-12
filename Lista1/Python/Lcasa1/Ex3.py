@@ -1,0 +1,6 @@
+ap = float(input("Altura da parede: "))
+lp = float(input("Largura da parede: "))
+aa = float(input("Altura do azulejo: "))
+la = float(input("Largura do azulejo: "))
+numA = (ap * lp) / (aa * la)
+print(f'O número de azulejos necessáros é {numA}')
